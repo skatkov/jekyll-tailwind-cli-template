@@ -3,4 +3,4 @@ baseurl: "" # the subpath of your site, e.g. /blog
 title: "" # the name of your site, e.g. ACME Corp.
 
 plugins:
-  - jekyll-tailwind
+  - jekyll-tailwind-cli
