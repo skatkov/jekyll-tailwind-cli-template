@@ -1,0 +1,4 @@
+_tailwind/
+_site/
+.ruby-lsp
+.jekyll-cache

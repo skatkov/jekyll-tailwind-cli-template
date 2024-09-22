@@ -4,3 +4,4 @@ title: "" # the name of your site, e.g. ACME Corp.
 
 plugins:
   - jekyll-tailwind-cli
+  - jekyll-heroicons
