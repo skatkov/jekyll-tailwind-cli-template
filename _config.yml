@@ -5,3 +5,8 @@ title: "" # the name of your site, e.g. ACME Corp.
 plugins:
   - jekyll-tailwind-cli
   - jekyll-heroicons
+
+heroicons:
+  variant: "solid"
+  default_class:
+    { solid: "size-6", outline: "size-6", mini: "size-5", micro: "size-4" }
