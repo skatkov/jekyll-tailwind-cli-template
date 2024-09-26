@@ -1,10 +1,19 @@
 ## jekyll-tailwind-cli-template
-Template repository for Jekyll powered website that integrates with Tailwind CSS.
+Jekyll template project that shows how to start Tailwind CSS based website.
 
-All other templates or manuals suggest to install javascript bundlers, but I don't really see any reason for that. This template uses Tailwind CLI instead. This is quite streight forward thanks to prior work in [jekyll-tailwind gem](https://github.com/crbelaus/jekyll-tailwind).
+In rails there are a lot of talks about no-build/simplified frontends. But most guides for Jekyll suggest to use javascript bundler to integrate with Tailwind CSS. This feels like an overkill.
 
-Still wanted something where I can start immediately writting html and tailwind code. So here it is!
+This template demonstrate how to do builder a tailwindcss website without dependency on javascript bundler. I have worked on couple of gems to enable that:
+- jekyll-tailwind-cli
+- jekyll-heroicons
 
-## Setup
+## Getting started
+
 1. `bundle install`
 2. `jekyll s --watch`
+3. Open localhost:4000
+
+Modify `_config.yml` file and start hacking on you're new website.
+
+## Contribute
+Everyone is welcome! 
