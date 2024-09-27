@@ -3,8 +3,12 @@ baseurl: "" # the subpath of your site, e.g. /blog
 title: "" # the name of your site, e.g. ACME Corp.
 
 plugins:
-  - jekyll-tailwind-cli
+  - jekyll-tailwind
   - jekyll-heroicons
+
+tailwind:
+  input: "assets/css/app.css"
+  minify: true
 
 heroicons:
   variant: "solid"
