@@ -7,11 +7,6 @@ GIT
       jekyll (>= 3.0, < 5.0)
       tailwindcss-ruby
 
-PATH
-  remote: ../fork-tailwindcss-ruby
-  specs:
-    tailwindcss-ruby (0.1.0)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -161,6 +156,12 @@ GEM
       google-protobuf (~> 4.27)
     sass-embedded (1.79.3-x86_64-linux-musl)
       google-protobuf (~> 4.27)
+    tailwindcss-ruby (0.1.0)
+    tailwindcss-ruby (0.1.0-aarch64-linux)
+    tailwindcss-ruby (0.1.0-arm-linux)
+    tailwindcss-ruby (0.1.0-arm64-darwin)
+    tailwindcss-ruby (0.1.0-x86_64-darwin)
+    tailwindcss-ruby (0.1.0-x86_64-linux)
     terminal-table (3.0.2)
       unicode-display_width (>= 1.1.1, < 3)
     unicode-display_width (2.6.0)
@@ -198,8 +199,6 @@ DEPENDENCIES
   jekyll
   jekyll-heroicons
   jekyll-tailwind!
-  rake
-  tailwindcss-ruby!
   webrick
 
 BUNDLED WITH
