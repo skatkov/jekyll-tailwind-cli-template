@@ -1,12 +1,3 @@
-GIT
-  remote: https://github.com/skatkov/fork-jekyll-tailwind.git
-  revision: c94fafe026711d93c7caaa207742ebcabc3dae1e
-  branch: tailwindcss-executable
-  specs:
-    jekyll-tailwind (1.0.0)
-      jekyll (>= 3.0, < 5.0)
-      tailwindcss-ruby
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -73,6 +64,9 @@ GEM
       nokogiri
     jekyll-sass-converter (3.0.0)
       sass-embedded (~> 1.54)
+    jekyll-tailwind (1.0.0)
+      jekyll (>= 3.0, < 5.0)
+      tailwindcss-ruby
     jekyll-watch (2.2.1)
       listen (~> 3.0)
     kramdown (2.4.0)
@@ -198,7 +192,7 @@ PLATFORMS
 DEPENDENCIES
   jekyll
   jekyll-heroicons
-  jekyll-tailwind!
+  jekyll-tailwind
   webrick
 
 BUNDLED WITH
